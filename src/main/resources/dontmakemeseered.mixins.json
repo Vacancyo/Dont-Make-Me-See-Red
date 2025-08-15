@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.vacancyotp.dontmakemeseered.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "dontmakemeseered.refmap.json",
+  "mixins": [
+    "DontMakeMeSeeRedMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
